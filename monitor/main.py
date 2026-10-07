@@ -26,7 +26,7 @@ def run(config_path: str = "config.yaml") -> None:
             result = check_url(url, timeout)
             previous = state.get(url)
             state[url] = result.ok
-            print(f"{url} ok={result.ok} {result.response_time_ms} ms")
+            print(f"[v5] {url} ok={result.ok} {result.response_time_ms} ms")
 
             # Ilmoitus vain kun tila muuttuu (tai ensimmäinen tarkistus epäonnistuu)
             changed = (not result.ok) if previous is None else previous != result.ok
