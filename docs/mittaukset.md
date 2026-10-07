@@ -6,6 +6,11 @@
 | 3 | 6 min 26 s | Kirjoitusvirheitä komennoissa |
 | 4 | 2 min 58 s | Kaikki sujui ongelmitta |
 | 5 | 2 min 48 s | Komentojen kirjoittaminen helpottuu toistojen myötä |
+
+**Keskiarvo, kerrat 1-3:** 6 min 29 s
+**Keskiarvo, kerrat 4-5:** 2 min 53 s
+**Havainto:** oppimisvaikutus lyhensi kierroksen kestoa yli 50 %.
+
 ## Havaitut virheet ja ongelmat
 
 | # | Päivämäärä | Havaittu missä | Virhe | Korjaus |
