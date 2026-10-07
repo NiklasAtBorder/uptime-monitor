@@ -25,3 +25,10 @@ jobs:
 
       - name: Testit
         run: pytest --cov=monitor
+  docker:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rakenna Docker-image
+        run: docker build -t uptime-monitor .
